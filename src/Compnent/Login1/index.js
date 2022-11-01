@@ -28,7 +28,7 @@ const Login = () => {
                 <TextField label='Username' placeholder='Enter Username' fullWidth required />
                 <TextField label='Password' placeholder='Password' type='password' fullWidth required />
                 <FormControlLabel value="end" control={<Checkbox />} label="Remember me" labelPlacement="end" />
-                <Button onClick={() => navigate('/login3')} type='submit' color='primary' variant="contained" style={btnStyle} fullWidth>Login</Button>
+                <Button onClick={() => navigate('/dashboard')} type='submit' color='primary' variant="contained" style={btnStyle} fullWidth>Login</Button>
                 <Typography>
                     <Link component="button" variant="body2" onClick={() => { console.info("I'm a button."); }}>
                         Forget Passsword?
