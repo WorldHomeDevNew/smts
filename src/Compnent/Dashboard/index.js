@@ -1,6 +1,11 @@
 import React from "react";
+import Navbar from '../Dashboard/Navbar'
+import Sidebar from '../Dashboard/Sidebar'
 
 function Dashboard(){
-    <h1>dashboard</h1>
+    <div>
+    <Navbar/>
+    <Sidebar/>
+    </div>
 }
 export default Dashboard;
